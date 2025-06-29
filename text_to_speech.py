@@ -3,7 +3,7 @@ import boto3  # Librería para AWS S3
 import os
 
 # Configuracion
-API_KEY = "sk_a2de4c0bff05a29c44a668e9852ce8b2526a0aabfe5b3421" #Reemplazala con tu API Key de ElevenLabs
+API_KEY = "00000" #Reemplazala con tu API Key de ElevenLabs
 VOICE_ID= "21m00Tcm4TlvDq8ikWAM"   # ID de la voz a utilizar (puedes cambiar la voz)
 BUCKET_NAME = "eleven-audio-2025"  # Nombre del bucket de S3 donde se subirán los audios, Debes crear un Bucket S3
 
